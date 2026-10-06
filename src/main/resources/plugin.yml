@@ -1,0 +1,13 @@
+name: RailPlus
+main: me.railplus.RailPlus
+version: 1.0
+api-version: '1.21'
+description: Additive, configurable minecart speed features
+commands:
+  railplus:
+    description: RailPlus admin command
+    usage: /railplus reload
+    permission: railplus.admin
+permissions:
+  railplus.admin:
+    default: op

@@ -1,0 +1,27 @@
+# RailPlus - all numbers are ADDED to normal minecart speed (normal = 0.4).
+# Set a feature to false to turn it off. Everything that is on stacks together.
+# After editing, run /railplus reload in game.
+
+# Highest speed any cart may reach (very high can break curves)
+max-speed: 1.5
+
+# 1) Player riding in the cart
+rider: true
+rider-speed: 0.15
+
+# 2) Block under the rail
+blocks: true
+gold-block: 0.5
+iron-block: 0.35
+redstone-block: 0.6
+
+# 3) Name the cart with a name tag
+names: true
+name-fast: 0.3
+name-turbo: 0.8
+name-slow: -0.2
+
+# 4) Furnace minecarts
+furnace: true
+furnace-speed: 0.25
+furnace-fuel: 3      # fuel lasts this many times longer (1 = normal)
